@@ -17,7 +17,7 @@ cd 6lbr/examples/6lbr
 make all
 make plugins
 make tools
-'''
+```
 As root:
 ```
 make install
@@ -38,7 +38,6 @@ ant run
 ```
     1. Open 6lbr/examples/canary/mqtt_protobuf_cooja/example.csc
     2. Press start or Ctrl+s
-```
 7. Add the broker IP to the network bridge
 ```
 sudo ip -6 addr add bbbb::100 dev br0
