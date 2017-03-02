@@ -54,7 +54,10 @@
 
 // #define UIP_DS6_CONF_PERIOD        CLOCK_SECOND
 // #define UIP_CONF_TCP                          0
-#define RPL_CONF_LEAF_ONLY                    1
+#define RPL_CONF_LEAF_ONLY                    0
+#ifndef UIP_CONF_IPV6_RPL
+#define UIP_CONF_IPV6_RPL               1
+#endif /* UIP_CONF_IPV6_RPL */
 /*---------------------------------------------------------------------------*/
 
 #ifndef WITH_NON_STORING
